@@ -38,7 +38,10 @@ Start sending messages and see them appear in real-time.
 
 ## Files
 **index.js**: Server-side code to handle Socket.io connections.
+
 **client.js**: Client-side JavaScript to manage chat functionalities.
+
 **chat.html**: HTML structure for the chat interface.
+
 **style.css**: CSS styles for the chat interface.
 
