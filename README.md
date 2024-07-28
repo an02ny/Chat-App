@@ -25,13 +25,17 @@ This project is a real-time chat application developed using Node.js, Socket.io,
    cd Real_Time_Chat_Application
 
 3.Initialize the Node.js project and install dependencies:
+```bash
 npm init -y
 npm install socket.io
+```
 
 4.Run server
+```
 node index.js
+```
+5.Open **chat.html** in your web browser to start the chat application. You can use the Live Server extension in VS Code for better development experience.
 
-5.Open chat.html in your web browser to start the chat application. You can use the Live Server extension in VS Code for better development experience.
 Open the chat application in multiple tabs or different browsers.
 Enter your name to join the chat.
 Start sending messages and see them appear in real-time.
