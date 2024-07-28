@@ -22,7 +22,7 @@ This project is a real-time chat application developed using Node.js, Socket.io,
 2. Clone the repository and navigate to the project directory:
    ```bash
    git clone https://github.com/an02ny/Real_Time_Chat_Application
-   cd chat-app
+   cd Real_Time_Chat_Application
 
 3.Initialize the Node.js project and install dependencies:
 npm init -y
