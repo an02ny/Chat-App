@@ -14,6 +14,7 @@ This project is a real-time chat application developed using Node.js, Socket.io,
 - Real-time messaging
 - Join and leave notifications
 - User-friendly interface
+- Group Chat
 
 ## Setup Instructions
 
@@ -29,12 +30,17 @@ This project is a real-time chat application developed using Node.js, Socket.io,
 npm init -y
 npm install socket.io
 ```
-
-4.Run server
+4.Start a Local Server Using Python:
+If you have Python installed, you can start a simple HTTP server using the following command:
+```bash
+python -m http.server 5500
+```
+5.Run server in new terminal
 ```
 node index.js
 ```
-5.Open **chat.html** in your web browser to start the chat application. You can use the Live Server extension in VS Code for better development experience.
+
+5.Navigate to **[chat.html](http://127.0.0.1:5500/chat.html)** in your web browser to start the chat application.
 
 Open the chat application in multiple tabs or different browsers.
 Enter your name to join the chat.
